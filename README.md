@@ -1,10 +1,8 @@
 # Juego del Ahorcado | Challenge ONE - Oracle Next Education
 
-Link del proyecto al final ⬇
-
 ---
 
-Este es el segundo Challenge del programa ONE - Oracle Next Education, donde se realizó un proyecto de **juego del ahorcado**.
+Reto 2 del programa ONE - Oracle Next Education, donde se realizócomo proyecto el **juego del ahorcado**.
 
 ---
 
@@ -24,8 +22,5 @@ Este es el segundo Challenge del programa ONE - Oracle Next Education, donde se 
 
 ---
 
-[**Link de la página** ✌](https://reinaldoparra24.github.io/Juego_del_Ahorcado/)
+[**Link de la página** ](https://reinaldoparra24.github.io/Juego_del_Ahorcado/)
 ---
-
-# Juego_del_Ahorcado
-
