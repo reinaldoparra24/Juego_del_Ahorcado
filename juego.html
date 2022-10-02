@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./stylesheet/reset.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="icon" type="image/x-icon" href="./image/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+
+    <title>Juego del Ahorcado</title>
+</head>
+
+<body>
+    <header>
+        <img src="./image/logo-alura.png" alt="Logo de Alura">
+
+
+    <main class="contenedor-principal">
+        <section class="colum1">
+            <div class="contenedor-item1">
+                <div id="item1"></div>  
+                <img src="./image/pajaro.png" alt="pajaro" class="trompetero">             
+            </div>
+
+            <div class="contenedor-item2">
+                <div id="item2"></div>
+                <button class="b-new" onclick="nuevoJuego()">Nuevo juego</button>
+                <a href="./index.html"><button class="b-desistir">Desistir</button></a>                
+            </div>
+        </section>
+
+        <section class="colum2">
+            <div class="contenedor-item3">
+                <div id="item3"></div>
+                <figure class="ahorcado">
+                    <img src="./image/horca.png" alt="horca" id="horca">
+                    <img alt="arlequin" id="arlequin-juego">
+                </figure>
+            </div>
+            
+            <div class="contenedor-item4">
+                <div id="item4"></div>
+                <div class="contenedor-acertadas"></div>
+            </div>
+        </section>
+
+        <section class="colum3">
+            <div class="contenedor-item5">
+                <div id="item5"></div>
+                <img src="./image/im2.png" alt="im2" class="banner-arco">  
+            </div>
+
+            <div class="contenedor-item6">
+                <div id="item6"></div>
+                <p id="texto1">LETRAS</p>
+                <p id="texto2">Incorrectas</p>
+                <div class="contenedor-erradas"></div>                             
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="links">
+            <P>© Esteban Parra</P>
+            <a href="https://www.linkedin.com/in/reinaldo-esteban-parra/" target="_blank"><img src="./image/icons8-linkedin-rodeado-de-círculo-30.png" alt="linkedIn"></a>
+            <a href="https://github.com/reinaldoparra24" target="_blank"><img src="./image/icons8-github-30.png" alt="GitHub"></a>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
